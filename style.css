@@ -1,0 +1,164 @@
+style.css
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-weight: 100px;	
+}
+.box{
+	width: 300px;
+	padding: 40px;	
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);	
+	background: #191919;
+	text-align: center;
+	outline-style: solid;
+
+}
+header {
+	height: 100px;
+	position: fixed;
+	background: #6336cb;
+	width: 100%;
+	padding: 0;
+}
+.logo {
+	float: left;
+	margin: 0;
+}
+.logo a {
+	color: #dbdbdb;
+	font-size: 200%;
+	font-family: sans-serif;
+	display: block;
+	text-decoration: none;
+	margin-top: 25px;
+
+}
+.menu {
+	float: right;
+	margin-right: 10%;
+}
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+.menu ul li {
+	float: left;
+	margin-top: 40px;
+	text-align: right;	
+	
+}
+.menu ul li a {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 0px;
+	width: 100px;
+	display: block;
+	text-align: right;
+	font-size: 20px;
+	font-family: sans-serif;
+
+}
+
+footer {
+	height: 40px;
+	background: #dbdbdb;
+	width: 100%;
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+}
+.copy p{
+	margin: 0;
+	padding: 0;
+	line-height: 40px;
+	color: #fff;
+}
+.box input[type="text"],.box input[type="password"]{
+	border: 0;
+	background: white;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.box input[type="login"]{
+    margin: 1px auto;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 5px solid green;
+    text-align: center;
+    border-radius: 15px;
+
+}
+.box input[type="submit"]{
+    margin: 1px auto;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 5px solid green;
+    text-align: center;
+    border-radius: 15px;
+ }   
+table {
+	border-collapse: collapse;
+	width: 500px;
+	height: 100px;
+	margin-top: 200px;
+
+}
+.box input[type="Createpassword"]{
+	border: 0;
+	background: white;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.box input[type="Confirmpassword"]{
+	border: 0;
+	background: white;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+
+}
+.box input[type="text"],.box input[type="search"]{
+	border: 0;
+	background: white;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
